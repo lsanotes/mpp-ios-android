@@ -10,6 +10,7 @@ class ViewController: UIViewController {
         label.textAlignment = .center
         label.font = label.font.withSize(25)
         label.text = CommonKt.createApplicationScreenMessage()
+        label.textColor = UIColor.black
         view.addSubview(label)
     }
 }
